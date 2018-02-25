@@ -10,5 +10,4 @@ while True:
 	"Outlook not so good.", "You may rely on it.", "Signs point to yes.", "Concentrate and ask again.", "Very doubtful."]
 	
 	input("Press enter to shake the ball or control-c to quit.")
-	print("\t")
 	print(responses[random.randint(0,20)])
